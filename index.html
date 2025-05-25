@@ -1,153 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>CJGROVE</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OnlyTrummp</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <style>
-    html {{
-      scroll-behavior: smooth;
-    }}
-    body {{
-      margin: 0;
-      font-family: sans-serif;
-      background: #000;
+    body {
+      background: #020617;
       color: white;
-    }}
-    .hero {{
-      background: linear-gradient(to right, #111827, #1f2937);
+      font-family: sans-serif;
+    }
+    .hero {
+      background: #0f172a;
       padding: 4rem 2rem;
       text-align: center;
-    }}
-    .btn {{
-      background: #facc15;
+    }
+    .hero h1 {
+      color: #facc15;
+      font-size: 3rem;
+      font-weight: bold;
+    }
+    .hero p {
+      color: #e2e8f0;
+      margin-bottom: 2rem;
+    }
+    .btn {
+      background-color: #facc15;
       color: black;
       padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border-radius: 0.5rem;
       margin: 0.5rem;
-      font-weight: bold;
-      border-radius: 0.5rem;
       display: inline-block;
-    }}
-    .nav-btn {{
-      background-color: #a855f7;
-      color: white;
-      font-weight: bold;
-      border-radius: 0.5rem;
-      padding: 0.5rem 1.25rem;
-      margin: 0.25rem;
-      display: inline-block;
-    }}
-    section {{
-      padding: 4rem 2rem;
-    }}
-    h2 {{
-      font-size: 2.5rem;
-      font-weight: bold;
-      margin-bottom: 2rem;
-      text-align: center;
-      color: #facc15;
-    }}
-    .section-box {{
-      max-width: 800px;
-      margin: auto;
-      background: rgba(255, 255, 255, 0.05);
-      padding: 2rem;
+    }
+    .img-showcase {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      flex-wrap: wrap;
+      margin-top: 2rem;
+    }
+    .img-showcase img {
       border-radius: 1rem;
-    }}
-    .section-box ul {{
-      list-style-type: disc;
-      padding-left: 1.5rem;
-    }}
-    .footer {{
+      width: 300px;
+      height: auto;
+    }
+    .footer {
       background: linear-gradient(to right, #7c3aed, #4c1d95);
       text-align: center;
       padding: 2rem;
       color: white;
-    }}
+    }
   </style>
 </head>
 <body>
 
-  <!-- HERO SECTION -->
+  <!-- Hero Section -->
   <section class="hero">
-    <img src="images/logo.png" alt="CJ Logo" class="mx-auto w-32 mb-4 rounded-full border-4 border-yellow-400">
-    <h1 class="text-5xl font-extrabold text-yellow-400 mb-2">CJGROVE</h1>
-    <p class="text-xl mb-6 text-gray-300">To The Grove. To The Blockchain.</p>
-    <div>
-      <a href="#" class="btn">🚀 Buy on PumpSwap</a>
-      <a href="#" class="btn">📈 View Chart</a>
-    </div>
-    <div class="socials">
-      <a href="https://t.me/cjgta6meme2026" class="btn">Telegram</a>
-      <a href="https://x.com/cjgta6meme" class="btn">Twitter</a>
-      <a href="#" class="btn">📊 Chart</a>
-      <a href="#" class="btn">🔁 Swap</a>
-    </div>
-    <div class="mt-10">
-      <a href="#about" class="nav-btn">About</a>
-      <a href="#tokenomics" class="nav-btn">Tokenomics</a>
-      <a href="#roadmap" class="nav-btn">Roadmap</a>
+    <h1>OnlyTrummp</h1>
+    <p>The Sugar Daddy of Meme Coins 💸</p>
+    <a href="#" class="btn">Buy on PumpSwap</a>
+    <a href="#" class="btn">View Chart</a>
+    <div class="img-showcase">
+      <img src="images/trump1.png" alt="Trump Cupid">
+      <img src="images/trump2.png" alt="Trump Slide">
+      <img src="images/trump3.png" alt="OnlyFans Trump">
     </div>
   </section>
 
-  <!-- ABOUT / MISSION -->
-  <section id="about">
-    <h2>About & Mission</h2>
-    <div class="section-box">
-      <p>CJGROVE is a community-powered meme token inspired by CJ's legendary comeback in GTA 6. Our mission is to bring chaos, nostalgia, and fun to Web3, all while building a real Grove Street on the blockchain. No devs, no VC. Just vibes, memes, and moves.</p>
-    </div>
-  </section>
-
-  <!-- TOKENOMICS -->
-  <section id="tokenomics">
-    <h2>Tokenomics</h2>
-    <div class="section-box">
-      <ul>
-        <li>Total Supply: 1,000,000,000 CJGROVE</li>
-        <li>50% Community</li>
-        <li>25% Liquidity Pool</li>
-        <li>15% Marketing & Partnerships</li>
-        <li>10% Team (Locked for 6 months, then vesting 10% monthly)</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- ROADMAP -->
-  <section id="roadmap">
-    <h2>Roadmap</h2>
-    <div class="section-box">
-      <ul>
-        <li>✅ Q2 2025 – Twitter, Telegram, Website Launch</li>
-        <li>✅ Q3 2025 – Token Launch on Pump.fun, First Giveaway</li>
-        <li>🔜 Q4 2025 – Meme Contest, NFTs, First Merch Drop</li>
-        <li>🔜 Q1 2026 – CMC/CG Listings, Staking + Mini Game</li>
-        <li>🔜 Q2 2026 – GroveDAO Launch, IRL Community Events</li>
-      </ul>
-    </div>
-  </section>
-
-  <!-- GIVEAWAY -->
-  <section>
-    <h2>Giveaway Incoming</h2>
-    <div class="section-box">
-      <p>🎁 First 500 members in the Telegram group are auto-eligible for an airdrop of 1,000,000 $CJGROVE each. Hold & tweet to increase chances!</p>
-      <p>Bonus: Top 10 memes on X will win exclusive NFTs and shoutouts on our official channels.</p>
-    </div>
-  </section>
-
-  <!-- TOKEN LOCK INFO -->
-  <section>
-    <h2>Token Lock</h2>
-    <div class="section-box">
-      <p>🛡️ To ensure safety, 25% liquidity is locked via Pump.fun and team tokens are locked for 6 months using Vesting Protocol. Full transparency — CJ doesn’t rug.</p>
-      <a href="#" class="btn mt-4 inline-block">🔒 View Lock Details</a>
-    </div>
-  </section>
-
-  <!-- FOOTER -->
+  <!-- Footer -->
   <div class="footer">
-    🟣 CJGROVE — Back in Web3. All rights reserved © 2025
+    💖 OnlyTrummp — Meme Power, Market Madness © 2025
   </div>
 
 </body>
